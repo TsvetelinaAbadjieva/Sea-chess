@@ -1,0 +1,250 @@
+
+.asside{
+    float:right;
+    background-color:honeydew;
+    opacity:1;
+    margin-bottom:15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.border {
+    border: 0px solid #d4f1f5;
+}
+.box{
+    width:80px;
+    height:80px;
+    border-color: blue;
+    text-align:center;
+    font-size: x-large;
+    margin:0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+.header{
+    height:auto;
+    background-color: lightslategray;
+    margin:0 auto;
+}
+.footer{
+    height:100px;
+    background-color: lightslategray;
+    margin:0 auto;
+    margin-left:-30px;
+}
+.registration{
+
+    height: auto;
+    background-color: gainsboro;
+    margin:0 auto;
+    margin-top:40px;
+    opacity: 0.8;
+}
+#registration{
+    color:darkslateblue;
+}
+.frame {
+    height: 50px;
+    background-color:#7397d6;
+    color:white;
+    font-family:Gabriola;
+
+}
+.header {
+    height: 100px;
+}
+.labels_login{
+    color:cornflowerblue;
+    font-family: Gabriola;
+    font-size: 20px;
+    margin-left:80px;
+}
+
+.button {
+    background-color: steelblue; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 52px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    margin-left:20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.flash{
+    color:lawngreen;
+    font-size: 20px;
+    font-family: SansSerif;
+    padding: 20px;
+}
+
+
+
+.btn-login, .btn-logout {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:#0e2977;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left:200px;
+    margin-bottom:25px;
+}
+.btn-login{
+    margin-bottom:15px;
+}
+
+.btn-login span, .btn-logout span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-login span:after,.btn-logout span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn-logout{
+    float:right;
+}
+.btn-login:hover span {
+    padding-right: 25px;
+}
+
+.btn-login:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+.error{
+    color:red;
+    font-size: 20px;
+}
+
+.btn-group,.reset{
+    width:180px;
+    background-color: #074f79;
+    float:right;
+    position:relative;
+    border-radius: 3px;
+
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 130px;
+    display:inline;
+
+}
+.btn-group .reset:hover {
+    background-color: #556fa9;
+}
+.table_container{
+   margin:0 auto;
+
+
+}
+.map{
+    background: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTfHDxJsn6dQxJ2tXvYcQSAWe0544Jlp8o6nXY4OVz9h1pbDmRG");
+    box-sizing:border-box;
+    background-repeat: repeat;
+    background-size:30%;
+
+    background-position: 50% 20%;
+
+
+}
+.results{
+
+    border-color: lightgray;
+    float:right;
+    position:absolute;
+}
+.labels{
+    background-color:whitesmoke;
+    color:darkorange;
+    height: 50px;
+    margin-left:50px;
+    margin-top:30px;
+    display: inline-block;
+    padding-left:5px;
+}
+.user{
+    color:#109ecc;
+    font-size: 18px;
+    display:inline-block;
+    padding-left:20px;
+}
+.username{
+    font-size: 14px;
+}
+.gamers{
+    list-style-type: none;
+    float:left;
+}
+.gamers>li{
+    display:inline-block;
+
+
+}
+.gamer, .robot, .nowinner{
+    font-family: Gabriola;
+    font-size: 30px;
+    color:orange;
+    text-align: center;
+    position:absolute;
+}
+.robot{
+
+    color:dodgerblue;
+
+}
+.nowinner{
+    color: seagreen;
+}
+.dimensions{
+    width:20px;
+}
+.matrix{
+    color:darkorange;
+}
+#table2{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}

@@ -98,21 +98,20 @@ if(isset($_POST['submit'])) {
 
                 <div style="width:600px; margin:0 auto">
                     <div class="row">
-                        <div class="col-sm-5 col-md-5">
-                            <div><button class="btn btn-login" type="submit"  id="submit" value="Login"><span>Login </span></button></div>
-                            <div class=""></div>
-                            <div class=""><p><a href="registration.php?fb=0" style="font-size: 16px">Registration</a></p></div>
-                            <div class=""></div>
-                            <div class="fb-login-button" data-width="250" data-max-rows="2" data-size="small" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="false">Facebook</div>
-                            <div class=""></div>
+                        <div class="col-md-4 col-sm-2 col-xs-2"></div>
+                        <div class="col-md-5 col-sm-8 col-xs-8">
+                            <button class="btn btn-login" type="submit"  id="submit" value="Login"><span>Login </span></button>
                         </div>
+                        <div class="col-md-3 col-sm-2 col-xs-2"></div>
                     </div>
-                    <div class="row" style="margin-top:15px;">
-
-
-
-
+                    <div class="row">
+                        <p><a href="registration.php?fb=0" style="font-size: 16px">Registration</a></p>
+                        <p><div class="fb-login-button" data-width="250" data-max-rows="2" data-size="small" data-button-type="login_with" data-show-faces="true" data-auto-logout-link="true" data-use-continue-as="false">Facebook</div></p>
                     </div>
+
+                </div>
+                <div class="row" style="margin-top:15px;">
+                </div>
                 </div>
 
             </form>

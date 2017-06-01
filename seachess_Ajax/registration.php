@@ -41,7 +41,7 @@ if(!$flag) {
 ?>
 
 <div class="">
-    <div class="row col-md-12 col-xs-8 col-sm-10 registration map">
+    <div class="row col-md-12 col-xs-12 col-sm-12 registration map">
         <div class="row"><div class="col-md-12 col-xs-12 col-sm-12 frame"></div></div>
 
         <form class="form-horizontal" action="" method="post" id="registration">
@@ -53,9 +53,11 @@ if(!$flag) {
             </div>
 
             <div class="row">
-                <div class="col-md-6 col-sm-9" id="registration" style="margin-left:500px; font-family: Gabriola;">
+                <div class="col-md-5 col-sm-2 col-xs-1"></div>
+                <div class="col-md-4 col-sm-8 col-xs-10" id="registration" style="font-family: Gabriola;">
                     <h3>Registration page</h3>
                 </div>
+                <div class="col-md-3 col-sm-2 col-xs-1"></div>
             </div>
 
             <div id="divEmail" class="form-group <?php //echo ($errors['email']!='')?'has-error':'has-success'; ?> has-feedback" <?php echo ($fb!=null && $fb==1)?'hidden':''; ?>>
@@ -82,7 +84,7 @@ if(!$flag) {
             <div id="divUsername" class="form-group <?php //echo ($errors['username']!='')?'has-error':'has-success'; ?> has-feedback">
                 <label class="control-label col-sm-3" for="inputSuccess3" style="color:dodgerblue">Username</label>
                 <div class="col-sm-9 col-md-6">
-                    <input type="text"  name="username" id="username" value="<?php //echo $username; ?>" class="form-control" <?php //echo (!empty($errors['username']))? 'id="inputError2" aria-describedby="inputError2Status"':'id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status"' ?>>
+                    <input type="text"  name="username" id="username" value="<?php //echo $username; ?>" class="form-control" <?php //echo (!empty($errors['username']))? 'id="inputError2" aria-describedby="inputError2Status"':'id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status"'?>>
                 <?php //if(empty($errors['username'])) {?>
                     <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
                     <span id="inputSuccess3Status" class="sr-only">(success)</span>
@@ -142,10 +144,12 @@ if(!$flag) {
 
             <div style="width:600px; margin:0 auto">
                 <div class="row">
-                    <div class="row col-sm-12 col-md-12 col-xs-8">
+                    <div class="col-md-4 col-sm-2 col-xs-2"></div>
+                    <div class="col-md-4 col-sm-4  col-xs-8">
                        <p><button class="btn btn-login" type="submit" name="submit" id="submit" value="Login"><span>Register </span></button></p>
                         <div id="message"></div>
                     </div>
+                    <div class="col-md-4 col-sm-2 col-xs-2"></div>
                 </div>
             </div>
         </form>
